@@ -35,3 +35,58 @@ Routing:-
         Routing using methods of the Express app object thai correspond to HTTP
         method.
         for example, app.get()
+
+req.query:-
+        req.query is a request object that found in a URL.
+        THese query strings are in key-value form.
+        They start after the question mark in any url.
+        Andif there are more than one, they are separated with the ampersand.
+
+        Route path = /name=Abhay&subject=Node
+
+structure:-
+        projectname
+        |-src // server side all data contain in src folder
+                |-routes
+                        |-main.js
+                |-models
+                app.js(main executable file)
+        |-public //all assets will contain in public folder
+                |-css
+                |-js
+                |-images
+        |-view //all designing files
+                |-partial //global part of html pages
+                index.hbs
+
+       //* npm i dotenv body-parser hbs *//
+
+express.Router():-
+        express.Router() function which is used to create a new router object.
+        This function is used when you want to create a new router onject.
+
+        syntax:
+                express.Router()
+        Router Instance is a middleware.
+
+Commonjs module system and ES6 module system:
+        Node.js's original module system is CommonJs(Which uses require and module.export).
+        ECMAScript module system(which uses import and export) has become standard and Node.js has added support for it.
+        Node.js will treat .cjs files as CommonJs modules and .mjs files as ECMAScript modules. It will treat .js files as whatever the default module system for the project is (which is CommonJs unless package.json says "type":"module",).
+
+Load Static HTML File in express:-
+        In static templates, we cannot pass custom variables and customize the template based on our needs. In dynamic temlates, we can pass dynamic variables and render HTML files with different values.
+
+Dynamic HTML template engine:-
+        Template engine helps to create an HTML template with minimal code. Also, it can inject data into an HTML template.
+        At runtime, the template engine replaces variables in a template file with actual values, and transforms the template into an HTML file sent to the client.
+
+Popular Template Engine:
+        EJS:-
+                Embedded Javascript Template(EJS) use for lightweight solution, creating HTML markup with simple Javascript code.
+        Handlebars:-
+                Improves developer's productivity. Improves readability and maintainability(HBS).
+        Mustache:-
+                Mustache is a logic-less templating engine , it canbe literallyused for any kind of development work.
+        Pug:-
+                pug is 2x slower than Handlebars,EJS,Underscores
