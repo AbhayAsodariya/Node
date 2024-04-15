@@ -89,4 +89,11 @@ Popular Template Engine:
         Mustache:-
                 Mustache is a logic-less templating engine , it canbe literallyused for any kind of development work.
         Pug:-
-                pug is 2x slower than Handlebars,EJS,Underscores
+                pug is 2x slower than Handlebars,EJS,Underscores.
+
+HTML partials:-
+        Handlebars allows for template reuse through partials.
+        Partials are normal Handlebars templates that may be called directly by other template.
+                Handlebars.registerPartial('myPartial','{{prefix}}');
+
+                {{>myPartial}}

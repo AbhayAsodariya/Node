@@ -1,0 +1,22 @@
+Mongo Db:-
+        Mongo DB is a no sql database.
+        Mongo DB is a scalable, open source, high performance, document oriented database.
+        
+        Data store in collections format 
+                E.g. {
+                        Name:"Abhay",
+                        Subject:"Node",
+                }
+        Horizontal Scalable
+
+Mongo DB and Mongoose:-
+        Mongo DB is a NoSQL document-oriented database, Mongoose is an object data modelling(ODM) library for node.js and MongoDB.
+        Mongoose provides higher set of features for mongoDB and Middleware functions.
+        Using of Mongoose we can define data models with fields, data types, validation, default value and make it easy.
+
+Database (nodedb):-
+        |->> Student (table) (collection)
+                |
+                |->> 1 AAA Python (field or row)
+                |->> document
+
